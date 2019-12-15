@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "160729813510",
+    "firebase_url": "https://time-to-guess-football.firebaseio.com",
+    "project_id": "time-to-guess-football",
+    "storage_bucket": "time-to-guess-football.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160729813510:android:f7d17b9639838426dfe987",
+        "android_client_info": {
+          "package_name": "com.montassar.guesswhoamisoccer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160729813510-b1v7sq7qehjkntqo5ha1t5plr26pj86a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.montassar.guesswhoamisoccer",
+            "certificate_hash": "6beda410eab78a82d86c6f193069696350048298"
+          }
+        },
+        {
+          "client_id": "160729813510-i9d2tj7j968rjts72hhtgqihkg40286s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTqwvTZcTyRBM6gN0H8zwOiD-IEJodG4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160729813510-i9d2tj7j968rjts72hhtgqihkg40286s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-3861349095858898~6442900483"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160729813510:android:30fca611dab47741dfe987",
+        "android_client_info": {
+          "package_name": "com.montassar.timetoguessbasketball"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160729813510-il21qdna0qjh2lsel8ugl0jfb1h891km.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.montassar.timetoguessbasketball",
+            "certificate_hash": "6beda410eab78a82d86c6f193069696350048298"
+          }
+        },
+        {
+          "client_id": "160729813510-i9d2tj7j968rjts72hhtgqihkg40286s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTqwvTZcTyRBM6gN0H8zwOiD-IEJodG4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160729813510-i9d2tj7j968rjts72hhtgqihkg40286s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

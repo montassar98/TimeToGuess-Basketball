@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacground">
+
+    <include layout="@layout/actiobar_settings"
+        android:id="@+id/action_bar_settings"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/action_bar_settings"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/ic_sound"
+                android:padding="10dp"
+                android:id="@+id/img_sound_ic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sound"
+                android:layout_toRightOf="@id/img_sound_ic"
+                android:layout_centerVertical="true"
+                android:textColor="@color/txtColor"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_toEndOf="@id/img_sound_ic" />
+            <androidx.appcompat.widget.SwitchCompat
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:theme="@style/Color1SwitchStyle"
+                android:id="@+id/switch_sound"
+                android:padding="10dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/ic_vibrate"
+                android:padding="10dp"
+                android:id="@+id/img_vibrate_ic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vibrate"
+                android:layout_toRightOf="@id/img_vibrate_ic"
+                android:layout_centerVertical="true"
+                android:textColor="@color/txtColor"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_toEndOf="@id/img_vibrate_ic" />
+            <androidx.appcompat.widget.SwitchCompat
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:theme="@style/Color1SwitchStyle"
+                android:id="@+id/switch_vibrate"
+                android:padding="10dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_rate_us">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/ic_rate"
+                android:padding="10dp"
+                android:id="@+id/img_rate_ic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rate Us"
+                android:layout_toRightOf="@id/img_rate_ic"
+                android:layout_centerVertical="true"
+                android:textColor="@color/txtColor"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_toEndOf="@id/img_rate_ic" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/ic_reset"
+                android:padding="10dp"
+                android:id="@+id/img_reset_ic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset The Game"
+                android:textColor="@color/txtColor"
+                android:id="@+id/txt_reset_game"
+                android:layout_toRightOf="@id/img_reset_ic"
+                android:layout_centerVertical="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_toEndOf="@id/img_reset_ic" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

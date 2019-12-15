@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@drawable/appbar">
+
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="fill_parent"
+        app:srcCompat="@drawable/button_back"
+        android:id="@+id/img_back_game"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Quiz 1"
+        android:textStyle="bold"
+        android:id="@+id/txt_current_level"
+        android:textColor="@color/txtColor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/coins"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/img_coins_add"/>
+
+    <TextView
+        android:id="@+id/txt_coins_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toStartOf="@id/img_coins_add"
+        android:layout_toLeftOf="@id/img_coins_add"
+        android:text="25"
+        android:textColor="@color/txtColor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
